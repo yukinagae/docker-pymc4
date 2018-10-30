@@ -1,0 +1,12 @@
+version: '2'
+services:
+  notebook:
+    container_name: pymc4
+    environment:
+      - GRANT_SUDO=yes
+    build:
+      context: .
+    volumes:
+      - ./notebooks:/home/jovyan/work
+    ports:
+      - 8888:8888

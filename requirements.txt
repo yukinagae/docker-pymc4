@@ -1,0 +1,7 @@
+xarray==0.10.4
+numpy==1.14.3
+tqdm==4.23.3
+biwrap
+tf-nightly
+tfp-nightly
+tb-nightly
