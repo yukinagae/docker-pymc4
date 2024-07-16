@@ -5,3 +5,4 @@ biwrap
 tf-nightly
 tfp-nightly
 tb-nightly
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
